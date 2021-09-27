@@ -1,0 +1,78 @@
+/* color: 
+#D95F69
+#F2E18D
+#BFB99B
+#F29544
+#D9CEC1
+
+#011126
+#020659
+#D9AC25
+#A67D32
+#0D0D0D
+
+#6593A6
+#58595B
+#F2CF63
+#F2C063*/
+
+body {
+    background-color: #D95F69;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.div-tela-cadastro {
+    height: 500px;
+    background-color: #6593A6;
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.left-cadastro {
+    background-color: brown;
+    width: 50%;
+    height: 500px;
+}
+
+.rigth-cadastro {
+    background-color: aquamarine;
+    width: 50%;
+    height: 500px;
+}
+
+img {
+    width: 340px;
+}
+

@@ -63,16 +63,16 @@ h3 {
     justify-content: center;
     margin: 0 auto;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 10%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .left-cadastro {
     background-color: #593B54;
     width: 50%;
     height: 500px;
-    border-radius: 10px 0 0 10px;
+    /* border-radius: 10px 0 0 10px; */
 
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@ h3 {
     background-color: #A68FA0;
     width: 50%;
     height: 500px;
-    border-radius: 0 10px 10px 0;
+    /* border-radius: 0 10px 10px 0; */
 
     display: flex;
     justify-content: center;
@@ -114,7 +114,7 @@ h3 {
 }
 
 img {
-    width: 340px;
+    width: 140px;
 }
 
 input {
@@ -160,3 +160,33 @@ button:hover {
     background-color: #2A2740;
 }
 
+/* m */
+
+.tela-cadastro-pessoal {
+    background-color:  #A68FA0;
+}
+
+.div-tela-cadastro-pessoal {
+    height: 500px;
+    /* display: flex; */
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #A68FA0;
+
+    
+}
+
+.h3-nome {
+    display: flex;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
